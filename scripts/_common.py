@@ -28,7 +28,7 @@ import torch.nn.functional as F
 from hydra.utils import instantiate
 from omegaconf import DictConfig, OmegaConf
 from torch import Tensor, nn
-from tqdm import tqdm
+from tqdm.autonotebook import tqdm
 from typing_extensions import TypeAlias
 
 log.debug("Finished importing common modules")
